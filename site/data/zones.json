@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T00:22:31.447646+00:00",
+  "generated_at": "2026-08-23T05:14:05.755287+00:00",
   "methodology": {
     "recency_halflife_days": 365,
     "prior_strength_capacity_units": 3.0,
     "capacity_unit": 40,
-    "campus_wide_rate_per_40_capacity": 0.1359,
+    "campus_wide_rate_per_40_capacity": 0.1494,
     "data_coverage_months": 19,
     "neighbor_max_m": 600,
     "neighbor_k": 3
@@ -19,10 +19,10 @@
       "grade": "A+",
       "estimated": false,
       "incident_count": 2,
-      "weighted_incident_count": 1.33,
+      "weighted_incident_count": 1.32,
       "rack_capacity": 950,
       "rack_count": 6,
-      "smoothed_incidents_per_40_capacity": 0.065,
+      "smoothed_incidents_per_40_capacity": 0.066,
       "confidence": "high",
       "has_reports": true
     },
@@ -38,7 +38,7 @@
       "weighted_incident_count": 1.25,
       "rack_capacity": 620,
       "rack_count": 12,
-      "smoothed_incidents_per_40_capacity": 0.09,
+      "smoothed_incidents_per_40_capacity": 0.092,
       "confidence": "high",
       "has_reports": true
     },
@@ -51,26 +51,10 @@
       "grade": "A+",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 1.99,
+      "weighted_incident_count": 1.98,
       "rack_capacity": 820,
       "rack_count": 6,
-      "smoothed_incidents_per_40_capacity": 0.102,
-      "confidence": "high",
-      "has_reports": true
-    },
-    {
-      "id": "zone-020",
-      "name": "Thompson Hall",
-      "lat": 30.616544,
-      "lon": -96.341231,
-      "status": "rated",
-      "grade": "A+",
-      "estimated": false,
-      "incident_count": 1,
-      "weighted_incident_count": 0.87,
-      "rack_capacity": 370,
-      "rack_count": 9,
-      "smoothed_incidents_per_40_capacity": 0.105,
+      "smoothed_incidents_per_40_capacity": 0.103,
       "confidence": "high",
       "has_reports": true
     },
@@ -80,13 +64,29 @@
       "lat": 30.620169,
       "lon": -96.339445,
       "status": "rated",
-      "grade": "A",
+      "grade": "A+",
       "estimated": false,
       "incident_count": 2,
       "weighted_incident_count": 1.22,
       "rack_capacity": 500,
       "rack_count": 7,
-      "smoothed_incidents_per_40_capacity": 0.105,
+      "smoothed_incidents_per_40_capacity": 0.107,
+      "confidence": "high",
+      "has_reports": true
+    },
+    {
+      "id": "zone-020",
+      "name": "Thompson Hall",
+      "lat": 30.616544,
+      "lon": -96.341231,
+      "status": "rated",
+      "grade": "A",
+      "estimated": false,
+      "incident_count": 1,
+      "weighted_incident_count": 0.87,
+      "rack_capacity": 370,
+      "rack_count": 9,
+      "smoothed_incidents_per_40_capacity": 0.108,
       "confidence": "high",
       "has_reports": true
     },
@@ -99,10 +99,10 @@
       "grade": "A",
       "estimated": false,
       "incident_count": 2,
-      "weighted_incident_count": 1.21,
+      "weighted_incident_count": 1.2,
       "rack_capacity": 480,
       "rack_count": 8,
-      "smoothed_incidents_per_40_capacity": 0.108,
+      "smoothed_incidents_per_40_capacity": 0.11,
       "confidence": "high",
       "has_reports": true
     },
@@ -118,7 +118,7 @@
       "weighted_incident_count": 0.78,
       "rack_capacity": 318,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.109,
+      "smoothed_incidents_per_40_capacity": 0.112,
       "confidence": "medium",
       "has_reports": true
     },
@@ -134,7 +134,7 @@
       "weighted_incident_count": 0.84,
       "rack_capacity": 320,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 0.113,
+      "smoothed_incidents_per_40_capacity": 0.117,
       "confidence": "medium",
       "has_reports": true
     },
@@ -150,7 +150,7 @@
       "weighted_incident_count": 1.3,
       "rack_capacity": 386,
       "rack_count": 11,
-      "smoothed_incidents_per_40_capacity": 0.135,
+      "smoothed_incidents_per_40_capacity": 0.138,
       "confidence": "high",
       "has_reports": true
     },
@@ -166,7 +166,7 @@
       "weighted_incident_count": 0.61,
       "rack_capacity": 176,
       "rack_count": 8,
-      "smoothed_incidents_per_40_capacity": 0.138,
+      "smoothed_incidents_per_40_capacity": 0.143,
       "confidence": "medium",
       "has_reports": true
     },
@@ -182,7 +182,7 @@
       "weighted_incident_count": 0.6,
       "rack_capacity": 160,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.144,
+      "smoothed_incidents_per_40_capacity": 0.149,
       "confidence": "medium",
       "has_reports": true
     },
@@ -198,8 +198,24 @@
       "weighted_incident_count": 1.34,
       "rack_capacity": 340,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.152,
+      "smoothed_incidents_per_40_capacity": 0.156,
       "confidence": "medium",
+      "has_reports": true
+    },
+    {
+      "id": "zone-057",
+      "name": "Reed Arena",
+      "lat": 30.605169,
+      "lon": -96.347232,
+      "status": "rated",
+      "grade": "B",
+      "estimated": false,
+      "incident_count": 2,
+      "weighted_incident_count": 1.83,
+      "rack_capacity": 420,
+      "rack_count": 2,
+      "smoothed_incidents_per_40_capacity": 0.169,
+      "confidence": "high",
       "has_reports": true
     },
     {
@@ -214,7 +230,7 @@
       "weighted_incident_count": 0.6,
       "rack_capacity": 120,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.168,
+      "smoothed_incidents_per_40_capacity": 0.174,
       "confidence": "medium",
       "has_reports": true
     },
@@ -230,7 +246,7 @@
       "weighted_incident_count": 2.16,
       "rack_capacity": 440,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 0.184,
+      "smoothed_incidents_per_40_capacity": 0.186,
       "confidence": "high",
       "has_reports": true
     },
@@ -246,7 +262,7 @@
       "weighted_incident_count": 0.85,
       "rack_capacity": 140,
       "rack_count": 2,
-      "smoothed_incidents_per_40_capacity": 0.193,
+      "smoothed_incidents_per_40_capacity": 0.199,
       "confidence": "medium",
       "has_reports": true
     },
@@ -259,10 +275,10 @@
       "grade": "C",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 2.18,
+      "weighted_incident_count": 2.17,
       "rack_capacity": 400,
       "rack_count": 3,
-      "smoothed_incidents_per_40_capacity": 0.199,
+      "smoothed_incidents_per_40_capacity": 0.202,
       "confidence": "high",
       "has_reports": true
     },
@@ -278,23 +294,23 @@
       "weighted_incident_count": 0.69,
       "rack_capacity": 80,
       "rack_count": 2,
-      "smoothed_incidents_per_40_capacity": 0.22,
+      "smoothed_incidents_per_40_capacity": 0.227,
       "confidence": "low",
       "has_reports": true
     },
     {
-      "id": "zone-085",
-      "name": "Wellborn Road (2)",
-      "lat": 30.606609,
-      "lon": -96.338235,
+      "id": "zone-023",
+      "name": "University Center Garage",
+      "lat": 30.611591,
+      "lon": -96.338838,
       "status": "rated",
       "grade": "C",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.62,
-      "rack_capacity": 30,
-      "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 0.275,
+      "weighted_incident_count": 0.9,
+      "rack_capacity": 100,
+      "rack_count": 3,
+      "smoothed_incidents_per_40_capacity": 0.246,
       "confidence": "low",
       "has_reports": true
     },
@@ -304,13 +320,13 @@
       "lat": 30.618066,
       "lon": -96.344582,
       "status": "rated",
-      "grade": "D",
+      "grade": "C",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 2.07,
+      "weighted_incident_count": 2.06,
       "rack_capacity": 240,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 0.275,
+      "smoothed_incidents_per_40_capacity": 0.279,
       "confidence": "medium",
       "has_reports": true
     },
@@ -323,11 +339,27 @@
       "grade": "D",
       "estimated": false,
       "incident_count": 6,
-      "weighted_incident_count": 4.25,
+      "weighted_incident_count": 4.24,
       "rack_capacity": 550,
       "rack_count": 6,
-      "smoothed_incidents_per_40_capacity": 0.278,
+      "smoothed_incidents_per_40_capacity": 0.28,
       "confidence": "high",
+      "has_reports": true
+    },
+    {
+      "id": "zone-085",
+      "name": "Wellborn Road (2)",
+      "lat": 30.606609,
+      "lon": -96.338235,
+      "status": "rated",
+      "grade": "D",
+      "estimated": false,
+      "incident_count": 1,
+      "weighted_incident_count": 0.62,
+      "rack_capacity": 30,
+      "rack_count": 1,
+      "smoothed_incidents_per_40_capacity": 0.285,
+      "confidence": "low",
       "has_reports": true
     },
     {
@@ -342,23 +374,7 @@
       "weighted_incident_count": 0.78,
       "rack_capacity": 30,
       "rack_count": 2,
-      "smoothed_incidents_per_40_capacity": 0.318,
-      "confidence": "low",
-      "has_reports": true
-    },
-    {
-      "id": "zone-045",
-      "name": "The Gardens Community Center",
-      "lat": 30.626541,
-      "lon": -96.340086,
-      "status": "rated",
-      "grade": "D",
-      "estimated": false,
-      "incident_count": 1,
-      "weighted_incident_count": 0.88,
-      "rack_capacity": 6,
-      "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 0.408,
+      "smoothed_incidents_per_40_capacity": 0.328,
       "confidence": "low",
       "has_reports": true
     },
@@ -368,13 +384,29 @@
       "lat": 30.611272,
       "lon": -96.342276,
       "status": "rated",
-      "grade": "F",
+      "grade": "D",
       "estimated": false,
       "incident_count": 2,
       "weighted_incident_count": 1.37,
       "rack_capacity": 14,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 0.532,
+      "smoothed_incidents_per_40_capacity": 0.543,
+      "confidence": "low",
+      "has_reports": true
+    },
+    {
+      "id": "zone-045",
+      "name": "The Gardens Community Center",
+      "lat": 30.626541,
+      "lon": -96.340086,
+      "status": "rated",
+      "grade": "F",
+      "estimated": false,
+      "incident_count": 2,
+      "weighted_incident_count": 1.81,
+      "rack_capacity": 6,
+      "rack_count": 1,
+      "smoothed_incidents_per_40_capacity": 0.718,
       "confidence": "low",
       "has_reports": true
     },
@@ -386,11 +418,11 @@
       "status": "rated",
       "grade": "F",
       "estimated": false,
-      "incident_count": 5,
-      "weighted_incident_count": 3.4,
+      "incident_count": 6,
+      "weighted_incident_count": 4.3,
       "rack_capacity": 75,
       "rack_count": 22,
-      "smoothed_incidents_per_40_capacity": 0.78,
+      "smoothed_incidents_per_40_capacity": 0.974,
       "confidence": "low",
       "has_reports": true
     },
@@ -403,27 +435,11 @@
       "grade": "F",
       "estimated": false,
       "incident_count": 18,
-      "weighted_incident_count": 13.1,
+      "weighted_incident_count": 13.07,
       "rack_capacity": 370,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 1.103,
+      "smoothed_incidents_per_40_capacity": 1.104,
       "confidence": "high",
-      "has_reports": true
-    },
-    {
-      "id": "zone-075",
-      "name": "Lot 63",
-      "lat": 30.600079,
-      "lon": -96.343572,
-      "status": "rated",
-      "grade": "F",
-      "estimated": false,
-      "incident_count": 5,
-      "weighted_incident_count": 3.71,
-      "rack_capacity": 10,
-      "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 1.266,
-      "confidence": "low",
       "has_reports": true
     },
     {
@@ -435,10 +451,26 @@
       "grade": "F",
       "estimated": false,
       "incident_count": 7,
-      "weighted_incident_count": 4.43,
+      "weighted_incident_count": 4.42,
       "rack_capacity": 10,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 1.488,
+      "smoothed_incidents_per_40_capacity": 1.497,
+      "confidence": "low",
+      "has_reports": true
+    },
+    {
+      "id": "zone-075",
+      "name": "Lot 63",
+      "lat": 30.600079,
+      "lon": -96.343572,
+      "status": "rated",
+      "grade": "F",
+      "estimated": false,
+      "incident_count": 6,
+      "weighted_incident_count": 4.65,
+      "rack_capacity": 10,
+      "rack_count": 1,
+      "smoothed_incidents_per_40_capacity": 1.57,
       "confidence": "low",
       "has_reports": true
     },
@@ -464,7 +496,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 740,
       "rack_count": 9,
-      "estimated_incidents_per_40_capacity": 0.154,
+      "estimated_incidents_per_40_capacity": 0.158,
       "confidence": "high",
       "has_reports": false
     },
@@ -490,7 +522,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 680,
       "rack_count": 14,
-      "estimated_incidents_per_40_capacity": 0.129,
+      "estimated_incidents_per_40_capacity": 0.133,
       "confidence": "high",
       "has_reports": false
     },
@@ -516,7 +548,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 600,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.345,
+      "estimated_incidents_per_40_capacity": 0.353,
       "confidence": "medium",
       "has_reports": false
     },
@@ -541,7 +573,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 472,
       "rack_count": 17,
-      "estimated_incidents_per_40_capacity": 0.608,
+      "estimated_incidents_per_40_capacity": 0.855,
       "confidence": "high",
       "has_reports": false
     },
@@ -565,7 +597,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 30,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.318,
+      "estimated_incidents_per_40_capacity": 0.328,
       "confidence": "medium",
       "has_reports": false
     },
@@ -591,7 +623,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.205,
+      "estimated_incidents_per_40_capacity": 0.211,
       "confidence": "medium",
       "has_reports": false
     },
@@ -616,7 +648,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.231,
+      "estimated_incidents_per_40_capacity": 0.239,
       "confidence": "high",
       "has_reports": false
     },
@@ -641,7 +673,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.089,
+      "estimated_incidents_per_40_capacity": 0.092,
       "confidence": "medium",
       "has_reports": false
     },
@@ -661,7 +693,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 4,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -681,7 +713,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -707,7 +739,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 250,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.221,
+      "estimated_incidents_per_40_capacity": 0.228,
       "confidence": "high",
       "has_reports": false
     },
@@ -733,33 +765,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 450,
       "rack_count": 9,
-      "estimated_incidents_per_40_capacity": 0.172,
-      "confidence": "high",
-      "has_reports": false
-    },
-    {
-      "id": "zone-023",
-      "name": "University Center Garage",
-      "lat": 30.611591,
-      "lon": -96.338838,
-      "status": "no_reports",
-      "grade": "D",
-      "estimated": true,
-      "estimate_basis": {
-        "method": "nearby_zones",
-        "neighbor_zone_ids": [
-          "zone-022",
-          "zone-061",
-          "zone-027"
-        ],
-        "neighbor_count": 3,
-        "nearest_neighbor_m": 220
-      },
-      "incident_count": 0,
-      "weighted_incident_count": 0.0,
-      "rack_capacity": 100,
-      "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.321,
+      "estimated_incidents_per_40_capacity": 0.175,
       "confidence": "high",
       "has_reports": false
     },
@@ -776,7 +782,7 @@
         "neighbor_zone_ids": [
           "zone-080",
           "zone-026",
-          "zone-027"
+          "zone-023"
         ],
         "neighbor_count": 3,
         "nearest_neighbor_m": 206
@@ -785,7 +791,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 150,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.725,
+      "estimated_incidents_per_40_capacity": 0.713,
       "confidence": "high",
       "has_reports": false
     },
@@ -801,8 +807,8 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-027",
-          "zone-026",
-          "zone-001"
+          "zone-023",
+          "zone-026"
         ],
         "neighbor_count": 3,
         "nearest_neighbor_m": 192
@@ -811,7 +817,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 60,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.18,
+      "estimated_incidents_per_40_capacity": 0.221,
       "confidence": "high",
       "has_reports": false
     },
@@ -837,7 +843,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 240,
       "rack_count": 6,
-      "estimated_incidents_per_40_capacity": 0.165,
+      "estimated_incidents_per_40_capacity": 0.168,
       "confidence": "high",
       "has_reports": false
     },
@@ -863,7 +869,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 106,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.14,
+      "estimated_incidents_per_40_capacity": 0.145,
       "confidence": "high",
       "has_reports": false
     },
@@ -888,7 +894,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.082,
+      "estimated_incidents_per_40_capacity": 0.084,
       "confidence": "medium",
       "has_reports": false
     },
@@ -908,7 +914,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 7,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -928,7 +934,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -952,7 +958,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 24,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.318,
+      "estimated_incidents_per_40_capacity": 0.328,
       "confidence": "medium",
       "has_reports": false
     },
@@ -976,7 +982,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 50,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.065,
+      "estimated_incidents_per_40_capacity": 0.066,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1002,7 +1008,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.183,
+      "estimated_incidents_per_40_capacity": 0.189,
       "confidence": "high",
       "has_reports": false
     },
@@ -1028,7 +1034,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 370,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.213,
+      "estimated_incidents_per_40_capacity": 0.22,
       "confidence": "high",
       "has_reports": false
     },
@@ -1044,16 +1050,17 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-085",
+          "zone-057",
           "zone-075"
         ],
-        "neighbor_count": 2,
+        "neighbor_count": 3,
         "nearest_neighbor_m": 429
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 80,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.721,
+      "estimated_incidents_per_40_capacity": 0.637,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1063,22 +1070,23 @@
       "lat": 30.60187,
       "lon": -96.349087,
       "status": "no_reports",
-      "grade": "F",
+      "grade": "D",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
+          "zone-057",
           "zone-065",
           "zone-075"
         ],
-        "neighbor_count": 2,
-        "nearest_neighbor_m": 419
+        "neighbor_count": 3,
+        "nearest_neighbor_m": 408
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.606,
+      "estimated_incidents_per_40_capacity": 0.528,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1102,7 +1110,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.065,
+      "estimated_incidents_per_40_capacity": 0.066,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1118,8 +1126,8 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-085",
-          "zone-061",
-          "zone-022"
+          "zone-023",
+          "zone-061"
         ],
         "neighbor_count": 3,
         "nearest_neighbor_m": 235
@@ -1128,7 +1136,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 75,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.324,
+      "estimated_incidents_per_40_capacity": 0.334,
       "confidence": "high",
       "has_reports": false
     },
@@ -1143,17 +1151,18 @@
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
-          "zone-075"
+          "zone-075",
+          "zone-057"
         ],
-        "neighbor_count": 1,
+        "neighbor_count": 2,
         "nearest_neighbor_m": 275
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 1.266,
-      "confidence": "medium",
+      "estimated_incidents_per_40_capacity": 0.983,
+      "confidence": "high",
       "has_reports": false
     },
     {
@@ -1176,7 +1185,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 100,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.109,
+      "estimated_incidents_per_40_capacity": 0.112,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1196,7 +1205,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 12,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1222,7 +1231,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 120,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.14,
+      "estimated_incidents_per_40_capacity": 0.144,
       "confidence": "high",
       "has_reports": false
     },
@@ -1242,7 +1251,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 4,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1262,7 +1271,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 13,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1286,7 +1295,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.318,
+      "estimated_incidents_per_40_capacity": 0.328,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1311,7 +1320,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 230,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.208,
+      "estimated_incidents_per_40_capacity": 0.215,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1335,32 +1344,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.065,
-      "confidence": "medium",
-      "has_reports": false
-    },
-    {
-      "id": "zone-057",
-      "name": "Reed Arena",
-      "lat": 30.605169,
-      "lon": -96.347232,
-      "status": "no_reports",
-      "grade": "B",
-      "estimated": true,
-      "estimate_basis": {
-        "method": "nearby_zones",
-        "neighbor_zone_ids": [
-          "zone-065",
-          "zone-083"
-        ],
-        "neighbor_count": 2,
-        "nearest_neighbor_m": 350
-      },
-      "incident_count": 0,
-      "weighted_incident_count": 0.0,
-      "rack_capacity": 420,
-      "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.155,
+      "estimated_incidents_per_40_capacity": 0.066,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1375,17 +1359,18 @@
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
+          "zone-057",
           "zone-085",
           "zone-061"
         ],
-        "neighbor_count": 2,
-        "nearest_neighbor_m": 450
+        "neighbor_count": 3,
+        "nearest_neighbor_m": 429
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 30,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.389,
+      "estimated_incidents_per_40_capacity": 0.314,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1395,7 +1380,7 @@
       "lat": 30.622936,
       "lon": -96.337435,
       "status": "no_reports",
-      "grade": "F",
+      "grade": "D",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -1411,7 +1396,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 280,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.523,
+      "estimated_incidents_per_40_capacity": 0.526,
       "confidence": "high",
       "has_reports": false
     },
@@ -1437,7 +1422,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 700,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.333,
+      "estimated_incidents_per_40_capacity": 0.34,
       "confidence": "high",
       "has_reports": false
     },
@@ -1447,23 +1432,24 @@
       "lat": 30.603648,
       "lon": -96.345833,
       "status": "no_reports",
-      "grade": "F",
+      "grade": "D",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
+          "zone-057",
           "zone-075",
           "zone-065"
         ],
-        "neighbor_count": 2,
-        "nearest_neighbor_m": 452
+        "neighbor_count": 3,
+        "nearest_neighbor_m": 216
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.725,
-      "confidence": "medium",
+      "estimated_incidents_per_40_capacity": 0.519,
+      "confidence": "high",
       "has_reports": false
     },
     {
@@ -1478,16 +1464,17 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-065",
+          "zone-057",
           "zone-083"
         ],
-        "neighbor_count": 2,
+        "neighbor_count": 3,
         "nearest_neighbor_m": 176
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 140,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.138,
+      "estimated_incidents_per_40_capacity": 0.153,
       "confidence": "high",
       "has_reports": false
     },
@@ -1513,7 +1500,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 140,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.227,
+      "estimated_incidents_per_40_capacity": 0.234,
       "confidence": "high",
       "has_reports": false
     },
@@ -1533,7 +1520,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1553,7 +1540,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1579,7 +1566,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.203,
+      "estimated_incidents_per_40_capacity": 0.209,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1605,7 +1592,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 290,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.107,
+      "estimated_incidents_per_40_capacity": 0.11,
       "confidence": "high",
       "has_reports": false
     },
@@ -1625,7 +1612,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 17,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1645,7 +1632,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1665,7 +1652,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1689,7 +1676,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 1.266,
+      "estimated_incidents_per_40_capacity": 1.57,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1715,7 +1702,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.126,
+      "estimated_incidents_per_40_capacity": 0.129,
       "confidence": "high",
       "has_reports": false
     },
@@ -1741,7 +1728,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.134,
+      "estimated_incidents_per_40_capacity": 0.138,
       "confidence": "high",
       "has_reports": false
     },
@@ -1767,7 +1754,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.15,
+      "estimated_incidents_per_40_capacity": 0.155,
       "confidence": "high",
       "has_reports": false
     },
@@ -1787,7 +1774,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 30,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1804,7 +1791,7 @@
         "neighbor_zone_ids": [
           "zone-065",
           "zone-083",
-          "zone-056"
+          "zone-057"
         ],
         "neighbor_count": 3,
         "nearest_neighbor_m": 257
@@ -1813,7 +1800,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.135,
+      "estimated_incidents_per_40_capacity": 0.165,
       "confidence": "high",
       "has_reports": false
     },
@@ -1839,7 +1826,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 300,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.325,
+      "estimated_incidents_per_40_capacity": 0.332,
       "confidence": "high",
       "has_reports": false
     },
@@ -1849,22 +1836,23 @@
       "lat": 30.608279,
       "lon": -96.336839,
       "status": "no_reports",
-      "grade": "F",
+      "grade": "D",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-085",
+          "zone-023",
           "zone-080"
         ],
-        "neighbor_count": 2,
+        "neighbor_count": 3,
         "nearest_neighbor_m": 229
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 6,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.634,
+      "estimated_incidents_per_40_capacity": 0.529,
       "confidence": "high",
       "has_reports": false
     },
@@ -1880,8 +1868,8 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-080",
-          "zone-026",
-          "zone-085"
+          "zone-023",
+          "zone-026"
         ],
         "neighbor_count": 3,
         "nearest_neighbor_m": 275
@@ -1890,7 +1878,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 60,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.805,
+      "estimated_incidents_per_40_capacity": 0.774,
       "confidence": "high",
       "has_reports": false
     },
@@ -1910,7 +1898,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.136,
+      "estimated_incidents_per_40_capacity": 0.149,
       "confidence": "low",
       "has_reports": false
     },
@@ -1926,16 +1914,17 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-083",
-          "zone-065"
+          "zone-065",
+          "zone-057"
         ],
-        "neighbor_count": 2,
+        "neighbor_count": 3,
         "nearest_neighbor_m": 154
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 80,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.185,
+      "estimated_incidents_per_40_capacity": 0.187,
       "confidence": "high",
       "has_reports": false
     },
@@ -1950,17 +1939,18 @@
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
-          "zone-075"
+          "zone-075",
+          "zone-057"
         ],
-        "neighbor_count": 1,
+        "neighbor_count": 2,
         "nearest_neighbor_m": 252
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 2,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 1.266,
-      "confidence": "medium",
+      "estimated_incidents_per_40_capacity": 1.083,
+      "confidence": "high",
       "has_reports": false
     },
     {
@@ -1974,18 +1964,19 @@
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
+          "zone-057",
           "zone-075",
           "zone-065"
         ],
-        "neighbor_count": 2,
-        "nearest_neighbor_m": 452
+        "neighbor_count": 3,
+        "nearest_neighbor_m": 276
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 150,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.69,
-      "confidence": "medium",
+      "estimated_incidents_per_40_capacity": 0.545,
+      "confidence": "high",
       "has_reports": false
     }
   ]

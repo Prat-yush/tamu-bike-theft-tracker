@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Match incidents.csv's free-text location_raw to a zone in zones.json.
+Match incidents_merged.csv's free-text location_raw to a zone in zones.json.
+(incidents_merged.csv = incidents.csv from scrape.py + clery_incidents.csv
+from scrape_clery.py, combined and deduped by merge_incidents.py.)
 
     python zonejoin.py
 
@@ -138,7 +140,7 @@ class Geocoder:
 
 def main():
     zones = load_zones()
-    rows = list(csv.DictReader(open(HERE / "incidents.csv", encoding="utf-8")))
+    rows = list(csv.DictReader(open(HERE / "incidents_merged.csv", encoding="utf-8")))
     geocoder = Geocoder()
 
     zoned, review = [], []

@@ -40,6 +40,8 @@ jobs:
           python scrape.py manifest
           python scrape.py fetch
           python scrape.py parse
+          python scrape_clery.py
+          python merge_incidents.py
           python zonejoin.py
           python racks.py
           python score.py
