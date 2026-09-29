@@ -287,5 +287,30 @@
   "503 George Bush Drive W, College Station, TX": [
     30.5997427,
     -96.3445961
+  ],
+  "100 Spence St, College Station, TX": [
+    30.6199925,
+    -96.3402165
+  ],
+  "210 Olsen Blvd, College Station, TX": [
+    30.6090105,
+    -96.3465222
+  ],
+  "374 Tom Chandler Drive, College Station, TX": null,
+  "250 Calvin Moore Av, College Station TX, TX": [
+    30.6253556,
+    -96.3407111
+  ],
+  "907 CROSS ST, College Station, TX": [
+    30.6242731,
+    -96.3443648
+  ],
+  "907 Cross St, College Station TX, TX": [
+    30.6242731,
+    -96.3443648
+  ],
+  "206 Olsen Blvd, College Station, TX": [
+    30.6090105,
+    -96.3465222
   ]
 }
