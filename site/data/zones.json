@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-29T12:01:02.673214+00:00",
+  "generated_at": "2026-10-01T12:18:40.092141+00:00",
   "methodology": {
     "recency_halflife_days": 365,
     "prior_strength_capacity_units": 3.0,
     "capacity_unit": 40,
-    "campus_wide_rate_per_40_capacity": 0.1666,
+    "campus_wide_rate_per_40_capacity": 0.1637,
     "data_coverage_months": 20,
     "neighbor_max_m": 600,
     "neighbor_k": 3
@@ -22,7 +22,7 @@
       "weighted_incident_count": 1.23,
       "rack_capacity": 950,
       "rack_count": 6,
-      "smoothed_incidents_per_40_capacity": 0.065,
+      "smoothed_incidents_per_40_capacity": 0.064,
       "confidence": "high",
       "has_reports": true
     },
@@ -38,7 +38,7 @@
       "weighted_incident_count": 0.81,
       "rack_capacity": 370,
       "rack_count": 9,
-      "smoothed_incidents_per_40_capacity": 0.107,
+      "smoothed_incidents_per_40_capacity": 0.106,
       "confidence": "high",
       "has_reports": true
     },
@@ -54,7 +54,7 @@
       "weighted_incident_count": 1.12,
       "rack_capacity": 480,
       "rack_count": 8,
-      "smoothed_incidents_per_40_capacity": 0.108,
+      "smoothed_incidents_per_40_capacity": 0.107,
       "confidence": "high",
       "has_reports": true
     },
@@ -67,10 +67,10 @@
       "grade": "A+",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.73,
+      "weighted_incident_count": 0.72,
       "rack_capacity": 318,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.112,
+      "smoothed_incidents_per_40_capacity": 0.111,
       "confidence": "medium",
       "has_reports": true
     },
@@ -86,7 +86,7 @@
       "weighted_incident_count": 0.78,
       "rack_capacity": 320,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 0.116,
+      "smoothed_incidents_per_40_capacity": 0.115,
       "confidence": "medium",
       "has_reports": true
     },
@@ -99,26 +99,10 @@
       "grade": "A",
       "estimated": false,
       "incident_count": 4,
-      "weighted_incident_count": 2.8,
+      "weighted_incident_count": 2.79,
       "rack_capacity": 820,
       "rack_count": 6,
       "smoothed_incidents_per_40_capacity": 0.14,
-      "confidence": "high",
-      "has_reports": true
-    },
-    {
-      "id": "zone-018",
-      "name": "Jones Street",
-      "lat": 30.615489,
-      "lon": -96.34558,
-      "status": "rated",
-      "grade": "A",
-      "estimated": false,
-      "incident_count": 3,
-      "weighted_incident_count": 2.16,
-      "rack_capacity": 620,
-      "rack_count": 12,
-      "smoothed_incidents_per_40_capacity": 0.144,
       "confidence": "high",
       "has_reports": true
     },
@@ -131,11 +115,27 @@
       "grade": "A",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.57,
+      "weighted_incident_count": 0.56,
       "rack_capacity": 176,
       "rack_count": 8,
-      "smoothed_incidents_per_40_capacity": 0.144,
+      "smoothed_incidents_per_40_capacity": 0.143,
       "confidence": "medium",
+      "has_reports": true
+    },
+    {
+      "id": "zone-018",
+      "name": "Jones Street",
+      "lat": 30.615489,
+      "lon": -96.34558,
+      "status": "rated",
+      "grade": "A",
+      "estimated": false,
+      "incident_count": 3,
+      "weighted_incident_count": 2.15,
+      "rack_capacity": 620,
+      "rack_count": 12,
+      "smoothed_incidents_per_40_capacity": 0.143,
+      "confidence": "high",
       "has_reports": true
     },
     {
@@ -150,7 +150,7 @@
       "weighted_incident_count": 0.56,
       "rack_capacity": 160,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.151,
+      "smoothed_incidents_per_40_capacity": 0.149,
       "confidence": "medium",
       "has_reports": true
     },
@@ -166,7 +166,7 @@
       "weighted_incident_count": 1.25,
       "rack_capacity": 340,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.152,
+      "smoothed_incidents_per_40_capacity": 0.151,
       "confidence": "medium",
       "has_reports": true
     },
@@ -179,10 +179,10 @@
       "grade": "B",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 2.08,
+      "weighted_incident_count": 2.07,
       "rack_capacity": 500,
       "rack_count": 7,
-      "smoothed_incidents_per_40_capacity": 0.167,
+      "smoothed_incidents_per_40_capacity": 0.166,
       "confidence": "high",
       "has_reports": true
     },
@@ -195,10 +195,10 @@
       "grade": "B",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.56,
+      "weighted_incident_count": 0.55,
       "rack_capacity": 120,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.176,
+      "smoothed_incidents_per_40_capacity": 0.174,
       "confidence": "medium",
       "has_reports": true
     },
@@ -211,10 +211,10 @@
       "grade": "B",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 2.01,
+      "weighted_incident_count": 2.0,
       "rack_capacity": 440,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 0.179,
+      "smoothed_incidents_per_40_capacity": 0.178,
       "confidence": "high",
       "has_reports": true
     },
@@ -230,7 +230,7 @@
       "weighted_incident_count": 0.79,
       "rack_capacity": 140,
       "rack_count": 2,
-      "smoothed_incidents_per_40_capacity": 0.198,
+      "smoothed_incidents_per_40_capacity": 0.196,
       "confidence": "medium",
       "has_reports": true
     },
@@ -243,10 +243,10 @@
       "grade": "C",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 1.92,
+      "weighted_incident_count": 1.91,
       "rack_capacity": 240,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 0.269,
+      "smoothed_incidents_per_40_capacity": 0.267,
       "confidence": "medium",
       "has_reports": true
     },
@@ -262,7 +262,7 @@
       "weighted_incident_count": 0.58,
       "rack_capacity": 30,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 0.288,
+      "smoothed_incidents_per_40_capacity": 0.285,
       "confidence": "low",
       "has_reports": true
     },
@@ -275,10 +275,10 @@
       "grade": "C",
       "estimated": false,
       "incident_count": 4,
-      "weighted_incident_count": 3.19,
+      "weighted_incident_count": 3.18,
       "rack_capacity": 386,
       "rack_count": 11,
-      "smoothed_incidents_per_40_capacity": 0.292,
+      "smoothed_incidents_per_40_capacity": 0.29,
       "confidence": "high",
       "has_reports": true
     },
@@ -291,10 +291,10 @@
       "grade": "C",
       "estimated": false,
       "incident_count": 7,
-      "weighted_incident_count": 4.9,
+      "weighted_incident_count": 4.88,
       "rack_capacity": 550,
       "rack_count": 6,
-      "smoothed_incidents_per_40_capacity": 0.322,
+      "smoothed_incidents_per_40_capacity": 0.321,
       "confidence": "high",
       "has_reports": true
     },
@@ -310,7 +310,7 @@
       "weighted_incident_count": 0.73,
       "rack_capacity": 30,
       "rack_count": 2,
-      "smoothed_incidents_per_40_capacity": 0.328,
+      "smoothed_incidents_per_40_capacity": 0.325,
       "confidence": "low",
       "has_reports": true
     },
@@ -323,10 +323,10 @@
       "grade": "D",
       "estimated": false,
       "incident_count": 5,
-      "weighted_incident_count": 3.95,
+      "weighted_incident_count": 3.93,
       "rack_capacity": 400,
       "rack_count": 3,
-      "smoothed_incidents_per_40_capacity": 0.342,
+      "smoothed_incidents_per_40_capacity": 0.34,
       "confidence": "high",
       "has_reports": true
     },
@@ -339,10 +339,10 @@
       "grade": "D",
       "estimated": false,
       "incident_count": 2,
-      "weighted_incident_count": 1.28,
+      "weighted_incident_count": 1.27,
       "rack_capacity": 14,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 0.53,
+      "smoothed_incidents_per_40_capacity": 0.526,
       "confidence": "low",
       "has_reports": true
     },
@@ -355,10 +355,10 @@
       "grade": "D",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 2.56,
+      "weighted_incident_count": 2.55,
       "rack_capacity": 80,
       "rack_count": 2,
-      "smoothed_incidents_per_40_capacity": 0.612,
+      "smoothed_incidents_per_40_capacity": 0.608,
       "confidence": "low",
       "has_reports": true
     },
@@ -371,10 +371,10 @@
       "grade": "F",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 2.64,
+      "weighted_incident_count": 2.63,
       "rack_capacity": 6,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 0.998,
+      "smoothed_incidents_per_40_capacity": 0.992,
       "confidence": "low",
       "has_reports": true
     },
@@ -387,10 +387,10 @@
       "grade": "F",
       "estimated": false,
       "incident_count": 7,
-      "weighted_incident_count": 5.08,
+      "weighted_incident_count": 5.06,
       "rack_capacity": 75,
       "rack_count": 22,
-      "smoothed_incidents_per_40_capacity": 1.145,
+      "smoothed_incidents_per_40_capacity": 1.14,
       "confidence": "low",
       "has_reports": true
     },
@@ -403,11 +403,27 @@
       "grade": "F",
       "estimated": false,
       "incident_count": 20,
-      "weighted_incident_count": 14.09,
+      "weighted_incident_count": 14.04,
       "rack_capacity": 370,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 1.191,
+      "smoothed_incidents_per_40_capacity": 1.186,
       "confidence": "high",
+      "has_reports": true
+    },
+    {
+      "id": "zone-075",
+      "name": "Lot 63",
+      "lat": 30.600079,
+      "lon": -96.343572,
+      "status": "rated",
+      "grade": "F",
+      "estimated": false,
+      "incident_count": 5,
+      "weighted_incident_count": 3.43,
+      "rack_capacity": 10,
+      "rack_count": 1,
+      "smoothed_incidents_per_40_capacity": 1.208,
+      "confidence": "low",
       "has_reports": true
     },
     {
@@ -419,26 +435,10 @@
       "grade": "F",
       "estimated": false,
       "incident_count": 7,
-      "weighted_incident_count": 4.12,
+      "weighted_incident_count": 4.1,
       "rack_capacity": 10,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 1.42,
-      "confidence": "low",
-      "has_reports": true
-    },
-    {
-      "id": "zone-075",
-      "name": "Lot 63",
-      "lat": 30.600079,
-      "lon": -96.343572,
-      "status": "rated",
-      "grade": "F",
-      "estimated": false,
-      "incident_count": 6,
-      "weighted_incident_count": 4.34,
-      "rack_capacity": 10,
-      "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 1.488,
+      "smoothed_incidents_per_40_capacity": 1.413,
       "confidence": "low",
       "has_reports": true
     },
@@ -464,7 +464,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 740,
       "rack_count": 9,
-      "estimated_incidents_per_40_capacity": 0.215,
+      "estimated_incidents_per_40_capacity": 0.213,
       "confidence": "high",
       "has_reports": false
     },
@@ -490,7 +490,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 680,
       "rack_count": 14,
-      "estimated_incidents_per_40_capacity": 0.152,
+      "estimated_incidents_per_40_capacity": 0.151,
       "confidence": "high",
       "has_reports": false
     },
@@ -516,7 +516,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 600,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.504,
+      "estimated_incidents_per_40_capacity": 0.5,
       "confidence": "medium",
       "has_reports": false
     },
@@ -541,7 +541,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 472,
       "rack_count": 17,
-      "estimated_incidents_per_40_capacity": 1.077,
+      "estimated_incidents_per_40_capacity": 1.071,
       "confidence": "high",
       "has_reports": false
     },
@@ -565,7 +565,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 30,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.328,
+      "estimated_incidents_per_40_capacity": 0.325,
       "confidence": "medium",
       "has_reports": false
     },
@@ -591,7 +591,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.265,
+      "estimated_incidents_per_40_capacity": 0.263,
       "confidence": "medium",
       "has_reports": false
     },
@@ -616,7 +616,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.238,
+      "estimated_incidents_per_40_capacity": 0.236,
       "confidence": "high",
       "has_reports": false
     },
@@ -641,7 +641,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.091,
+      "estimated_incidents_per_40_capacity": 0.09,
       "confidence": "medium",
       "has_reports": false
     },
@@ -661,7 +661,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 4,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -681,7 +681,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -707,7 +707,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 250,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.441,
+      "estimated_incidents_per_40_capacity": 0.438,
       "confidence": "high",
       "has_reports": false
     },
@@ -733,7 +733,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 450,
       "rack_count": 9,
-      "estimated_incidents_per_40_capacity": 0.189,
+      "estimated_incidents_per_40_capacity": 0.188,
       "confidence": "high",
       "has_reports": false
     },
@@ -759,7 +759,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 100,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.395,
+      "estimated_incidents_per_40_capacity": 0.392,
       "confidence": "high",
       "has_reports": false
     },
@@ -785,7 +785,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 150,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.72,
+      "estimated_incidents_per_40_capacity": 0.717,
       "confidence": "high",
       "has_reports": false
     },
@@ -811,7 +811,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 60,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.211,
+      "estimated_incidents_per_40_capacity": 0.209,
       "confidence": "high",
       "has_reports": false
     },
@@ -837,7 +837,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 240,
       "rack_count": 6,
-      "estimated_incidents_per_40_capacity": 0.18,
+      "estimated_incidents_per_40_capacity": 0.179,
       "confidence": "high",
       "has_reports": false
     },
@@ -863,7 +863,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 106,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.161,
+      "estimated_incidents_per_40_capacity": 0.159,
       "confidence": "high",
       "has_reports": false
     },
@@ -908,7 +908,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 7,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -928,7 +928,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -952,7 +952,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 24,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.328,
+      "estimated_incidents_per_40_capacity": 0.325,
       "confidence": "medium",
       "has_reports": false
     },
@@ -976,7 +976,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 50,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.065,
+      "estimated_incidents_per_40_capacity": 0.064,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1002,7 +1002,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.276,
+      "estimated_incidents_per_40_capacity": 0.274,
       "confidence": "high",
       "has_reports": false
     },
@@ -1028,7 +1028,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 370,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.435,
+      "estimated_incidents_per_40_capacity": 0.432,
       "confidence": "high",
       "has_reports": false
     },
@@ -1053,7 +1053,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 80,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.828,
+      "estimated_incidents_per_40_capacity": 0.7,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1063,7 +1063,7 @@
       "lat": 30.60187,
       "lon": -96.349087,
       "status": "no_reports",
-      "grade": "F",
+      "grade": "D",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -1078,7 +1078,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.703,
+      "estimated_incidents_per_40_capacity": 0.582,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1102,7 +1102,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.065,
+      "estimated_incidents_per_40_capacity": 0.064,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1128,7 +1128,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 75,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.366,
+      "estimated_incidents_per_40_capacity": 0.363,
       "confidence": "high",
       "has_reports": false
     },
@@ -1152,7 +1152,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 1.488,
+      "estimated_incidents_per_40_capacity": 1.208,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1176,7 +1176,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 100,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.112,
+      "estimated_incidents_per_40_capacity": 0.111,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1196,7 +1196,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 12,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1222,7 +1222,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 120,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.157,
+      "estimated_incidents_per_40_capacity": 0.156,
       "confidence": "high",
       "has_reports": false
     },
@@ -1242,7 +1242,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 4,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1262,7 +1262,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 13,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1286,7 +1286,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.328,
+      "estimated_incidents_per_40_capacity": 0.325,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1311,7 +1311,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 230,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.214,
+      "estimated_incidents_per_40_capacity": 0.212,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1335,7 +1335,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.065,
+      "estimated_incidents_per_40_capacity": 0.064,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1345,7 +1345,7 @@
       "lat": 30.605169,
       "lon": -96.347232,
       "status": "no_reports",
-      "grade": "D",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -1360,7 +1360,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 420,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.322,
+      "estimated_incidents_per_40_capacity": 0.32,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1385,7 +1385,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 30,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.395,
+      "estimated_incidents_per_40_capacity": 0.392,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1411,7 +1411,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 280,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.574,
+      "estimated_incidents_per_40_capacity": 0.571,
       "confidence": "high",
       "has_reports": false
     },
@@ -1437,7 +1437,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 700,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.378,
+      "estimated_incidents_per_40_capacity": 0.376,
       "confidence": "high",
       "has_reports": false
     },
@@ -1462,7 +1462,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.844,
+      "estimated_incidents_per_40_capacity": 0.695,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1487,7 +1487,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 140,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.244,
+      "estimated_incidents_per_40_capacity": 0.242,
       "confidence": "high",
       "has_reports": false
     },
@@ -1513,7 +1513,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 140,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.369,
+      "estimated_incidents_per_40_capacity": 0.366,
       "confidence": "high",
       "has_reports": false
     },
@@ -1533,7 +1533,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1553,7 +1553,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1579,7 +1579,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.347,
+      "estimated_incidents_per_40_capacity": 0.344,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1605,7 +1605,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 290,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.183,
+      "estimated_incidents_per_40_capacity": 0.181,
       "confidence": "high",
       "has_reports": false
     },
@@ -1625,7 +1625,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 17,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1645,7 +1645,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1665,7 +1665,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1689,7 +1689,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 1.488,
+      "estimated_incidents_per_40_capacity": 1.208,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1715,7 +1715,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.193,
+      "estimated_incidents_per_40_capacity": 0.192,
       "confidence": "high",
       "has_reports": false
     },
@@ -1741,7 +1741,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.137,
+      "estimated_incidents_per_40_capacity": 0.135,
       "confidence": "high",
       "has_reports": false
     },
@@ -1767,7 +1767,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.171,
+      "estimated_incidents_per_40_capacity": 0.169,
       "confidence": "high",
       "has_reports": false
     },
@@ -1787,7 +1787,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 50,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1813,7 +1813,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.267,
+      "estimated_incidents_per_40_capacity": 0.265,
       "confidence": "high",
       "has_reports": false
     },
@@ -1839,7 +1839,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 300,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.515,
+      "estimated_incidents_per_40_capacity": 0.512,
       "confidence": "high",
       "has_reports": false
     },
@@ -1864,7 +1864,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 6,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.623,
+      "estimated_incidents_per_40_capacity": 0.619,
       "confidence": "high",
       "has_reports": false
     },
@@ -1890,7 +1890,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 60,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.787,
+      "estimated_incidents_per_40_capacity": 0.782,
       "confidence": "high",
       "has_reports": false
     },
@@ -1910,7 +1910,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.167,
+      "estimated_incidents_per_40_capacity": 0.164,
       "confidence": "low",
       "has_reports": false
     },
@@ -1935,7 +1935,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 80,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.458,
+      "estimated_incidents_per_40_capacity": 0.456,
       "confidence": "high",
       "has_reports": false
     },
@@ -1959,7 +1959,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 2,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 1.488,
+      "estimated_incidents_per_40_capacity": 1.208,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1984,7 +1984,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 150,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.803,
+      "estimated_incidents_per_40_capacity": 0.662,
       "confidence": "medium",
       "has_reports": false
     }
