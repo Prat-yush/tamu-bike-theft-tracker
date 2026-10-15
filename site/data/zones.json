@@ -1,44 +1,28 @@
 {
-  "generated_at": "2026-10-01T12:18:40.092141+00:00",
+  "generated_at": "2026-10-15T10:46:36.128885+00:00",
   "methodology": {
     "recency_halflife_days": 365,
     "prior_strength_capacity_units": 3.0,
     "capacity_unit": 40,
-    "campus_wide_rate_per_40_capacity": 0.1637,
+    "campus_wide_rate_per_40_capacity": 0.1929,
     "data_coverage_months": 20,
     "neighbor_max_m": 600,
     "neighbor_k": 3
   },
   "zones": [
     {
-      "id": "zone-056",
-      "name": "White Creek",
-      "lat": 30.607402,
-      "lon": -96.355515,
-      "status": "rated",
-      "grade": "A+",
-      "estimated": false,
-      "incident_count": 2,
-      "weighted_incident_count": 1.23,
-      "rack_capacity": 950,
-      "rack_count": 6,
-      "smoothed_incidents_per_40_capacity": 0.064,
-      "confidence": "high",
-      "has_reports": true
-    },
-    {
-      "id": "zone-020",
-      "name": "Thompson Hall",
-      "lat": 30.616544,
-      "lon": -96.341231,
+      "id": "zone-005",
+      "name": "West Campus Garage",
+      "lat": 30.608927,
+      "lon": -96.343864,
       "status": "rated",
       "grade": "A+",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.81,
-      "rack_capacity": 370,
-      "rack_count": 9,
-      "smoothed_incidents_per_40_capacity": 0.106,
+      "weighted_incident_count": 0.97,
+      "rack_capacity": 600,
+      "rack_count": 5,
+      "smoothed_incidents_per_40_capacity": 0.086,
       "confidence": "high",
       "has_reports": true
     },
@@ -51,10 +35,26 @@
       "grade": "A+",
       "estimated": false,
       "incident_count": 2,
-      "weighted_incident_count": 1.12,
+      "weighted_incident_count": 1.09,
       "rack_capacity": 480,
       "rack_count": 8,
-      "smoothed_incidents_per_40_capacity": 0.107,
+      "smoothed_incidents_per_40_capacity": 0.111,
+      "confidence": "high",
+      "has_reports": true
+    },
+    {
+      "id": "zone-020",
+      "name": "Thompson Hall",
+      "lat": 30.616544,
+      "lon": -96.341231,
+      "status": "rated",
+      "grade": "A+",
+      "estimated": false,
+      "incident_count": 1,
+      "weighted_incident_count": 0.79,
+      "rack_capacity": 370,
+      "rack_count": 9,
+      "smoothed_incidents_per_40_capacity": 0.112,
       "confidence": "high",
       "has_reports": true
     },
@@ -67,10 +67,10 @@
       "grade": "A+",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.72,
+      "weighted_incident_count": 0.71,
       "rack_capacity": 318,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.111,
+      "smoothed_incidents_per_40_capacity": 0.117,
       "confidence": "medium",
       "has_reports": true
     },
@@ -83,10 +83,10 @@
       "grade": "A",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.78,
+      "weighted_incident_count": 0.76,
       "rack_capacity": 320,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 0.115,
+      "smoothed_incidents_per_40_capacity": 0.121,
       "confidence": "medium",
       "has_reports": true
     },
@@ -99,7 +99,7 @@
       "grade": "A",
       "estimated": false,
       "incident_count": 4,
-      "weighted_incident_count": 2.79,
+      "weighted_incident_count": 2.72,
       "rack_capacity": 820,
       "rack_count": 6,
       "smoothed_incidents_per_40_capacity": 0.14,
@@ -115,27 +115,27 @@
       "grade": "A",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.56,
+      "weighted_incident_count": 0.55,
       "rack_capacity": 176,
       "rack_count": 8,
-      "smoothed_incidents_per_40_capacity": 0.143,
+      "smoothed_incidents_per_40_capacity": 0.153,
       "confidence": "medium",
       "has_reports": true
     },
     {
-      "id": "zone-018",
-      "name": "Jones Street",
-      "lat": 30.615489,
-      "lon": -96.34558,
+      "id": "zone-028",
+      "name": "Golf Lot",
+      "lat": 30.616572,
+      "lon": -96.33457,
       "status": "rated",
       "grade": "A",
       "estimated": false,
-      "incident_count": 3,
-      "weighted_incident_count": 2.15,
-      "rack_capacity": 620,
-      "rack_count": 12,
-      "smoothed_incidents_per_40_capacity": 0.143,
-      "confidence": "high",
+      "incident_count": 2,
+      "weighted_incident_count": 1.21,
+      "rack_capacity": 340,
+      "rack_count": 4,
+      "smoothed_incidents_per_40_capacity": 0.156,
+      "confidence": "medium",
       "has_reports": true
     },
     {
@@ -147,26 +147,10 @@
       "grade": "B",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.56,
+      "weighted_incident_count": 0.54,
       "rack_capacity": 160,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.149,
-      "confidence": "medium",
-      "has_reports": true
-    },
-    {
-      "id": "zone-028",
-      "name": "Golf Lot",
-      "lat": 30.616572,
-      "lon": -96.33457,
-      "status": "rated",
-      "grade": "B",
-      "estimated": false,
-      "incident_count": 2,
-      "weighted_incident_count": 1.25,
-      "rack_capacity": 340,
-      "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.151,
+      "smoothed_incidents_per_40_capacity": 0.16,
       "confidence": "medium",
       "has_reports": true
     },
@@ -179,10 +163,58 @@
       "grade": "B",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 2.07,
+      "weighted_incident_count": 2.02,
       "rack_capacity": 500,
       "rack_count": 7,
-      "smoothed_incidents_per_40_capacity": 0.166,
+      "smoothed_incidents_per_40_capacity": 0.168,
+      "confidence": "high",
+      "has_reports": true
+    },
+    {
+      "id": "zone-029",
+      "name": "Lot 15",
+      "lat": 30.617457,
+      "lon": -96.337257,
+      "status": "rated",
+      "grade": "B",
+      "estimated": false,
+      "incident_count": 1,
+      "weighted_incident_count": 0.94,
+      "rack_capacity": 240,
+      "rack_count": 6,
+      "smoothed_incidents_per_40_capacity": 0.169,
+      "confidence": "medium",
+      "has_reports": true
+    },
+    {
+      "id": "zone-056",
+      "name": "White Creek",
+      "lat": 30.607402,
+      "lon": -96.355515,
+      "status": "rated",
+      "grade": "B",
+      "estimated": false,
+      "incident_count": 5,
+      "weighted_incident_count": 4.15,
+      "rack_capacity": 950,
+      "rack_count": 6,
+      "smoothed_incidents_per_40_capacity": 0.177,
+      "confidence": "high",
+      "has_reports": true
+    },
+    {
+      "id": "zone-019",
+      "name": "Fish Pond West",
+      "lat": 30.616396,
+      "lon": -96.343866,
+      "status": "rated",
+      "grade": "B",
+      "estimated": false,
+      "incident_count": 3,
+      "weighted_incident_count": 1.95,
+      "rack_capacity": 440,
+      "rack_count": 5,
+      "smoothed_incidents_per_40_capacity": 0.181,
       "confidence": "high",
       "has_reports": true
     },
@@ -195,26 +227,26 @@
       "grade": "B",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.55,
+      "weighted_incident_count": 0.54,
       "rack_capacity": 120,
       "rack_count": 4,
-      "smoothed_incidents_per_40_capacity": 0.174,
+      "smoothed_incidents_per_40_capacity": 0.186,
       "confidence": "medium",
       "has_reports": true
     },
     {
-      "id": "zone-019",
-      "name": "Fish Pond West",
-      "lat": 30.616396,
-      "lon": -96.343866,
+      "id": "zone-018",
+      "name": "Jones Street",
+      "lat": 30.615489,
+      "lon": -96.34558,
       "status": "rated",
-      "grade": "B",
+      "grade": "C",
       "estimated": false,
-      "incident_count": 3,
-      "weighted_incident_count": 2.0,
-      "rack_capacity": 440,
-      "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 0.178,
+      "incident_count": 4,
+      "weighted_incident_count": 3.08,
+      "rack_capacity": 620,
+      "rack_count": 12,
+      "smoothed_incidents_per_40_capacity": 0.198,
       "confidence": "high",
       "has_reports": true
     },
@@ -227,10 +259,10 @@
       "grade": "C",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.79,
+      "weighted_incident_count": 0.77,
       "rack_capacity": 140,
       "rack_count": 2,
-      "smoothed_incidents_per_40_capacity": 0.196,
+      "smoothed_incidents_per_40_capacity": 0.207,
       "confidence": "medium",
       "has_reports": true
     },
@@ -243,10 +275,10 @@
       "grade": "C",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 1.91,
+      "weighted_incident_count": 1.86,
       "rack_capacity": 240,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 0.267,
+      "smoothed_incidents_per_40_capacity": 0.271,
       "confidence": "medium",
       "has_reports": true
     },
@@ -259,27 +291,11 @@
       "grade": "C",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.58,
+      "weighted_incident_count": 0.56,
       "rack_capacity": 30,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 0.285,
+      "smoothed_incidents_per_40_capacity": 0.304,
       "confidence": "low",
-      "has_reports": true
-    },
-    {
-      "id": "zone-017",
-      "name": "Lot 30a",
-      "lat": 30.616894,
-      "lon": -96.345307,
-      "status": "rated",
-      "grade": "C",
-      "estimated": false,
-      "incident_count": 4,
-      "weighted_incident_count": 3.18,
-      "rack_capacity": 386,
-      "rack_count": 11,
-      "smoothed_incidents_per_40_capacity": 0.29,
-      "confidence": "high",
       "has_reports": true
     },
     {
@@ -291,10 +307,10 @@
       "grade": "C",
       "estimated": false,
       "incident_count": 7,
-      "weighted_incident_count": 4.88,
+      "weighted_incident_count": 4.75,
       "rack_capacity": 550,
       "rack_count": 6,
-      "smoothed_incidents_per_40_capacity": 0.321,
+      "smoothed_incidents_per_40_capacity": 0.318,
       "confidence": "high",
       "has_reports": true
     },
@@ -304,14 +320,30 @@
       "lat": 30.613027,
       "lon": -96.353265,
       "status": "rated",
-      "grade": "D",
+      "grade": "C",
       "estimated": false,
       "incident_count": 1,
-      "weighted_incident_count": 0.73,
+      "weighted_incident_count": 0.71,
       "rack_capacity": 30,
       "rack_count": 2,
-      "smoothed_incidents_per_40_capacity": 0.325,
+      "smoothed_incidents_per_40_capacity": 0.343,
       "confidence": "low",
+      "has_reports": true
+    },
+    {
+      "id": "zone-017",
+      "name": "Lot 30a",
+      "lat": 30.616894,
+      "lon": -96.345307,
+      "status": "rated",
+      "grade": "D",
+      "estimated": false,
+      "incident_count": 5,
+      "weighted_incident_count": 4.05,
+      "rack_capacity": 386,
+      "rack_count": 11,
+      "smoothed_incidents_per_40_capacity": 0.366,
+      "confidence": "high",
       "has_reports": true
     },
     {
@@ -322,11 +354,11 @@
       "status": "rated",
       "grade": "D",
       "estimated": false,
-      "incident_count": 5,
-      "weighted_incident_count": 3.93,
+      "incident_count": 6,
+      "weighted_incident_count": 4.78,
       "rack_capacity": 400,
       "rack_count": 3,
-      "smoothed_incidents_per_40_capacity": 0.34,
+      "smoothed_incidents_per_40_capacity": 0.412,
       "confidence": "high",
       "has_reports": true
     },
@@ -339,10 +371,10 @@
       "grade": "D",
       "estimated": false,
       "incident_count": 2,
-      "weighted_incident_count": 1.27,
+      "weighted_incident_count": 1.24,
       "rack_capacity": 14,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 0.526,
+      "smoothed_incidents_per_40_capacity": 0.543,
       "confidence": "low",
       "has_reports": true
     },
@@ -355,10 +387,10 @@
       "grade": "D",
       "estimated": false,
       "incident_count": 3,
-      "weighted_incident_count": 2.55,
+      "weighted_incident_count": 2.48,
       "rack_capacity": 80,
       "rack_count": 2,
-      "smoothed_incidents_per_40_capacity": 0.608,
+      "smoothed_incidents_per_40_capacity": 0.612,
       "confidence": "low",
       "has_reports": true
     },
@@ -370,27 +402,11 @@
       "status": "rated",
       "grade": "F",
       "estimated": false,
-      "incident_count": 3,
-      "weighted_incident_count": 2.63,
+      "incident_count": 2,
+      "weighted_incident_count": 1.72,
       "rack_capacity": 6,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 0.992,
-      "confidence": "low",
-      "has_reports": true
-    },
-    {
-      "id": "zone-044",
-      "name": "T Row",
-      "lat": 30.6263,
-      "lon": -96.342263,
-      "status": "rated",
-      "grade": "F",
-      "estimated": false,
-      "incident_count": 7,
-      "weighted_incident_count": 5.06,
-      "rack_capacity": 75,
-      "rack_count": 22,
-      "smoothed_incidents_per_40_capacity": 1.14,
+      "smoothed_incidents_per_40_capacity": 0.729,
       "confidence": "low",
       "has_reports": true
     },
@@ -402,11 +418,11 @@
       "status": "rated",
       "grade": "F",
       "estimated": false,
-      "incident_count": 20,
-      "weighted_incident_count": 14.04,
+      "incident_count": 23,
+      "weighted_incident_count": 16.56,
       "rack_capacity": 370,
       "rack_count": 5,
-      "smoothed_incidents_per_40_capacity": 1.186,
+      "smoothed_incidents_per_40_capacity": 1.399,
       "confidence": "high",
       "has_reports": true
     },
@@ -418,11 +434,27 @@
       "status": "rated",
       "grade": "F",
       "estimated": false,
-      "incident_count": 5,
-      "weighted_incident_count": 3.43,
+      "incident_count": 6,
+      "weighted_incident_count": 4.32,
       "rack_capacity": 10,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 1.208,
+      "smoothed_incidents_per_40_capacity": 1.506,
+      "confidence": "low",
+      "has_reports": true
+    },
+    {
+      "id": "zone-044",
+      "name": "T Row",
+      "lat": 30.6263,
+      "lon": -96.342263,
+      "status": "rated",
+      "grade": "F",
+      "estimated": false,
+      "incident_count": 9,
+      "weighted_incident_count": 6.89,
+      "rack_capacity": 75,
+      "rack_count": 22,
+      "smoothed_incidents_per_40_capacity": 1.531,
       "confidence": "low",
       "has_reports": true
     },
@@ -434,11 +466,11 @@
       "status": "rated",
       "grade": "F",
       "estimated": false,
-      "incident_count": 7,
-      "weighted_incident_count": 4.1,
+      "incident_count": 8,
+      "weighted_incident_count": 4.97,
       "rack_capacity": 10,
       "rack_count": 1,
-      "smoothed_incidents_per_40_capacity": 1.413,
+      "smoothed_incidents_per_40_capacity": 1.706,
       "confidence": "low",
       "has_reports": true
     },
@@ -462,9 +494,9 @@
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
-      "rack_capacity": 740,
-      "rack_count": 9,
-      "estimated_incidents_per_40_capacity": 0.213,
+      "rack_capacity": 800,
+      "rack_count": 10,
+      "estimated_incidents_per_40_capacity": 0.247,
       "confidence": "high",
       "has_reports": false
     },
@@ -490,34 +522,8 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 680,
       "rack_count": 14,
-      "estimated_incidents_per_40_capacity": 0.151,
+      "estimated_incidents_per_40_capacity": 0.158,
       "confidence": "high",
-      "has_reports": false
-    },
-    {
-      "id": "zone-005",
-      "name": "West Campus Garage",
-      "lat": 30.608927,
-      "lon": -96.343864,
-      "status": "no_reports",
-      "grade": "D",
-      "estimated": true,
-      "estimate_basis": {
-        "method": "nearby_zones",
-        "neighbor_zone_ids": [
-          "zone-061",
-          "zone-083",
-          "zone-022"
-        ],
-        "neighbor_count": 3,
-        "nearest_neighbor_m": 302
-      },
-      "incident_count": 0,
-      "weighted_incident_count": 0.0,
-      "rack_capacity": 600,
-      "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.5,
-      "confidence": "medium",
       "has_reports": false
     },
     {
@@ -541,7 +547,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 472,
       "rack_count": 17,
-      "estimated_incidents_per_40_capacity": 1.071,
+      "estimated_incidents_per_40_capacity": 1.159,
       "confidence": "high",
       "has_reports": false
     },
@@ -551,7 +557,7 @@
       "lat": 30.61596,
       "lon": -96.352508,
       "status": "no_reports",
-      "grade": "D",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -565,7 +571,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 30,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.325,
+      "estimated_incidents_per_40_capacity": 0.343,
       "confidence": "medium",
       "has_reports": false
     },
@@ -591,7 +597,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.263,
+      "estimated_incidents_per_40_capacity": 0.307,
       "confidence": "medium",
       "has_reports": false
     },
@@ -616,7 +622,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.236,
+      "estimated_incidents_per_40_capacity": 0.286,
       "confidence": "high",
       "has_reports": false
     },
@@ -626,7 +632,7 @@
       "lat": 30.603689,
       "lon": -96.353949,
       "status": "no_reports",
-      "grade": "A+",
+      "grade": "A",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -641,7 +647,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.09,
+      "estimated_incidents_per_40_capacity": 0.144,
       "confidence": "medium",
       "has_reports": false
     },
@@ -651,7 +657,7 @@
       "lat": 30.601993,
       "lon": -96.35947,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -661,7 +667,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 4,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -671,7 +677,7 @@
       "lat": 30.597363,
       "lon": -96.35349,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -681,7 +687,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -707,7 +713,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 250,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.438,
+      "estimated_incidents_per_40_capacity": 0.446,
       "confidence": "high",
       "has_reports": false
     },
@@ -717,23 +723,23 @@
       "lat": 30.617094,
       "lon": -96.338897,
       "status": "no_reports",
-      "grade": "C",
+      "grade": "A",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
+          "zone-029",
           "zone-020",
-          "zone-030",
-          "zone-027"
+          "zone-030"
         ],
         "neighbor_count": 3,
-        "nearest_neighbor_m": 232
+        "nearest_neighbor_m": 162
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 450,
       "rack_count": 9,
-      "estimated_incidents_per_40_capacity": 0.188,
+      "estimated_incidents_per_40_capacity": 0.147,
       "confidence": "high",
       "has_reports": false
     },
@@ -759,7 +765,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 100,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.392,
+      "estimated_incidents_per_40_capacity": 0.429,
       "confidence": "high",
       "has_reports": false
     },
@@ -785,7 +791,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 150,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.717,
+      "estimated_incidents_per_40_capacity": 0.839,
       "confidence": "high",
       "has_reports": false
     },
@@ -811,33 +817,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 60,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.209,
-      "confidence": "high",
-      "has_reports": false
-    },
-    {
-      "id": "zone-029",
-      "name": "Lot 15",
-      "lat": 30.617457,
-      "lon": -96.337257,
-      "status": "no_reports",
-      "grade": "C",
-      "estimated": true,
-      "estimate_basis": {
-        "method": "nearby_zones",
-        "neighbor_zone_ids": [
-          "zone-030",
-          "zone-001",
-          "zone-027"
-        ],
-        "neighbor_count": 3,
-        "nearest_neighbor_m": 185
-      },
-      "incident_count": 0,
-      "weighted_incident_count": 0.0,
-      "rack_capacity": 240,
-      "rack_count": 6,
-      "estimated_incidents_per_40_capacity": 0.179,
+      "estimated_incidents_per_40_capacity": 0.21,
       "confidence": "high",
       "has_reports": false
     },
@@ -853,8 +833,8 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-030",
-          "zone-003",
-          "zone-078"
+          "zone-029",
+          "zone-003"
         ],
         "neighbor_count": 3,
         "nearest_neighbor_m": 96
@@ -863,7 +843,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 106,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.159,
+      "estimated_incidents_per_40_capacity": 0.161,
       "confidence": "high",
       "has_reports": false
     },
@@ -873,7 +853,7 @@
       "lat": 30.604696,
       "lon": -96.355896,
       "status": "no_reports",
-      "grade": "A+",
+      "grade": "A",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -888,7 +868,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.083,
+      "estimated_incidents_per_40_capacity": 0.153,
       "confidence": "medium",
       "has_reports": false
     },
@@ -898,7 +878,7 @@
       "lat": 30.60028,
       "lon": -96.359564,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -908,7 +888,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 7,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -918,7 +898,7 @@
       "lat": 30.622246,
       "lon": -96.357338,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -928,7 +908,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -938,7 +918,7 @@
       "lat": 30.617773,
       "lon": -96.354459,
       "status": "no_reports",
-      "grade": "D",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -952,7 +932,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 24,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.325,
+      "estimated_incidents_per_40_capacity": 0.343,
       "confidence": "medium",
       "has_reports": false
     },
@@ -962,7 +942,7 @@
       "lat": 30.605574,
       "lon": -96.358415,
       "status": "no_reports",
-      "grade": "A+",
+      "grade": "B",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -976,7 +956,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 50,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.064,
+      "estimated_incidents_per_40_capacity": 0.177,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1002,7 +982,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.274,
+      "estimated_incidents_per_40_capacity": 0.331,
       "confidence": "high",
       "has_reports": false
     },
@@ -1019,7 +999,7 @@
         "neighbor_zone_ids": [
           "zone-083",
           "zone-011",
-          "zone-018"
+          "zone-005"
         ],
         "neighbor_count": 3,
         "nearest_neighbor_m": 216
@@ -1028,7 +1008,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 370,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.432,
+      "estimated_incidents_per_40_capacity": 0.424,
       "confidence": "high",
       "has_reports": false
     },
@@ -1038,22 +1018,23 @@
       "lat": 30.604675,
       "lon": -96.342109,
       "status": "no_reports",
-      "grade": "F",
+      "grade": "D",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-085",
+          "zone-005",
           "zone-075"
         ],
-        "neighbor_count": 2,
+        "neighbor_count": 3,
         "nearest_neighbor_m": 429
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 80,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.7,
+      "estimated_incidents_per_40_capacity": 0.601,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1063,7 +1044,7 @@
       "lat": 30.60187,
       "lon": -96.349087,
       "status": "no_reports",
-      "grade": "D",
+      "grade": "F",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -1078,7 +1059,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.582,
+      "estimated_incidents_per_40_capacity": 0.714,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1088,7 +1069,7 @@
       "lat": 30.60876,
       "lon": -96.357605,
       "status": "no_reports",
-      "grade": "A+",
+      "grade": "B",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -1102,7 +1083,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.064,
+      "estimated_incidents_per_40_capacity": 0.177,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1128,7 +1109,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 75,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.363,
+      "estimated_incidents_per_40_capacity": 0.395,
       "confidence": "high",
       "has_reports": false
     },
@@ -1152,7 +1133,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 1.208,
+      "estimated_incidents_per_40_capacity": 1.506,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1176,7 +1157,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 100,
       "rack_count": 5,
-      "estimated_incidents_per_40_capacity": 0.111,
+      "estimated_incidents_per_40_capacity": 0.117,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1186,7 +1167,7 @@
       "lat": 30.615369,
       "lon": -96.369003,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1196,7 +1177,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 12,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1222,7 +1203,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 120,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.156,
+      "estimated_incidents_per_40_capacity": 0.176,
       "confidence": "high",
       "has_reports": false
     },
@@ -1232,7 +1213,7 @@
       "lat": 30.619062,
       "lon": -96.365379,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1242,7 +1223,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 4,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1252,7 +1233,7 @@
       "lat": 30.621444,
       "lon": -96.359341,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1262,7 +1243,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 13,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1272,7 +1253,7 @@
       "lat": 30.614525,
       "lon": -96.352861,
       "status": "no_reports",
-      "grade": "D",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -1286,7 +1267,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.325,
+      "estimated_incidents_per_40_capacity": 0.343,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1311,7 +1292,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 230,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.212,
+      "estimated_incidents_per_40_capacity": 0.271,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1321,7 +1302,7 @@
       "lat": 30.608825,
       "lon": -96.360953,
       "status": "no_reports",
-      "grade": "A+",
+      "grade": "B",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -1335,7 +1316,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.064,
+      "estimated_incidents_per_40_capacity": 0.177,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1351,16 +1332,17 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-065",
-          "zone-083"
+          "zone-083",
+          "zone-005"
         ],
-        "neighbor_count": 2,
+        "neighbor_count": 3,
         "nearest_neighbor_m": 350
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 420,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.32,
+      "estimated_incidents_per_40_capacity": 0.258,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1370,22 +1352,23 @@
       "lat": 30.606162,
       "lon": -96.342904,
       "status": "no_reports",
-      "grade": "D",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
+          "zone-005",
           "zone-085",
           "zone-061"
         ],
-        "neighbor_count": 2,
-        "nearest_neighbor_m": 450
+        "neighbor_count": 3,
+        "nearest_neighbor_m": 321
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 30,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.392,
+      "estimated_incidents_per_40_capacity": 0.27,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1395,7 +1378,7 @@
       "lat": 30.622936,
       "lon": -96.337435,
       "status": "no_reports",
-      "grade": "D",
+      "grade": "F",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
@@ -1411,7 +1394,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 280,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.571,
+      "estimated_incidents_per_40_capacity": 0.657,
       "confidence": "high",
       "has_reports": false
     },
@@ -1428,7 +1411,7 @@
         "neighbor_zone_ids": [
           "zone-061",
           "zone-022",
-          "zone-043"
+          "zone-005"
         ],
         "neighbor_count": 3,
         "nearest_neighbor_m": 196
@@ -1437,7 +1420,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 700,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.376,
+      "estimated_incidents_per_40_capacity": 0.389,
       "confidence": "high",
       "has_reports": false
     },
@@ -1462,7 +1445,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.695,
+      "estimated_incidents_per_40_capacity": 0.856,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1487,7 +1470,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 140,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.242,
+      "estimated_incidents_per_40_capacity": 0.248,
       "confidence": "high",
       "has_reports": false
     },
@@ -1513,7 +1496,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 140,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.366,
+      "estimated_incidents_per_40_capacity": 0.4,
       "confidence": "high",
       "has_reports": false
     },
@@ -1523,7 +1506,7 @@
       "lat": 30.601718,
       "lon": -96.357255,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1533,7 +1516,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1543,7 +1526,7 @@
       "lat": 30.618205,
       "lon": -96.356438,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1553,7 +1536,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1579,7 +1562,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 3,
-      "estimated_incidents_per_40_capacity": 0.344,
+      "estimated_incidents_per_40_capacity": 0.372,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1605,7 +1588,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 290,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.181,
+      "estimated_incidents_per_40_capacity": 0.244,
       "confidence": "high",
       "has_reports": false
     },
@@ -1615,7 +1598,7 @@
       "lat": 30.618189,
       "lon": -96.360957,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1625,7 +1608,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 17,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1635,7 +1618,7 @@
       "lat": 30.647281,
       "lon": -96.475125,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1645,7 +1628,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1655,7 +1638,7 @@
       "lat": 30.642075,
       "lon": -96.468563,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1665,7 +1648,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 40,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1689,7 +1672,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 1.208,
+      "estimated_incidents_per_40_capacity": 1.506,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1715,7 +1698,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.192,
+      "estimated_incidents_per_40_capacity": 0.239,
       "confidence": "high",
       "has_reports": false
     },
@@ -1725,23 +1708,23 @@
       "lat": 30.618539,
       "lon": -96.336051,
       "status": "no_reports",
-      "grade": "A",
+      "grade": "B",
       "estimated": true,
       "estimate_basis": {
         "method": "nearby_zones",
         "neighbor_zone_ids": [
+          "zone-029",
           "zone-030",
-          "zone-028",
-          "zone-001"
+          "zone-028"
         ],
         "neighbor_count": 3,
-        "nearest_neighbor_m": 170
+        "nearest_neighbor_m": 167
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.135,
+      "estimated_incidents_per_40_capacity": 0.16,
       "confidence": "high",
       "has_reports": false
     },
@@ -1767,7 +1750,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 20,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.169,
+      "estimated_incidents_per_40_capacity": 0.177,
       "confidence": "high",
       "has_reports": false
     },
@@ -1777,7 +1760,7 @@
       "lat": 30.598109,
       "lon": -96.351897,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1787,7 +1770,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 50,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1813,7 +1796,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.265,
+      "estimated_incidents_per_40_capacity": 0.297,
       "confidence": "high",
       "has_reports": false
     },
@@ -1829,8 +1812,8 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-083",
-          "zone-061",
-          "zone-022"
+          "zone-005",
+          "zone-061"
         ],
         "neighbor_count": 3,
         "nearest_neighbor_m": 298
@@ -1839,7 +1822,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 300,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.512,
+      "estimated_incidents_per_40_capacity": 0.412,
       "confidence": "high",
       "has_reports": false
     },
@@ -1864,7 +1847,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 6,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.619,
+      "estimated_incidents_per_40_capacity": 0.719,
       "confidence": "high",
       "has_reports": false
     },
@@ -1890,7 +1873,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 60,
       "rack_count": 4,
-      "estimated_incidents_per_40_capacity": 0.782,
+      "estimated_incidents_per_40_capacity": 0.927,
       "confidence": "high",
       "has_reports": false
     },
@@ -1900,7 +1883,7 @@
       "lat": 30.620661,
       "lon": -96.356581,
       "status": "no_reports",
-      "grade": "B",
+      "grade": "C",
       "estimated": true,
       "estimate_basis": {
         "method": "campus_average",
@@ -1910,7 +1893,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 10,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.164,
+      "estimated_incidents_per_40_capacity": 0.193,
       "confidence": "low",
       "has_reports": false
     },
@@ -1926,16 +1909,17 @@
         "method": "nearby_zones",
         "neighbor_zone_ids": [
           "zone-083",
-          "zone-065"
+          "zone-065",
+          "zone-005"
         ],
-        "neighbor_count": 2,
+        "neighbor_count": 3,
         "nearest_neighbor_m": 154
       },
       "incident_count": 0,
       "weighted_incident_count": 0.0,
       "rack_capacity": 80,
       "rack_count": 2,
-      "estimated_incidents_per_40_capacity": 0.456,
+      "estimated_incidents_per_40_capacity": 0.389,
       "confidence": "high",
       "has_reports": false
     },
@@ -1959,7 +1943,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 2,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 1.208,
+      "estimated_incidents_per_40_capacity": 1.506,
       "confidence": "medium",
       "has_reports": false
     },
@@ -1984,7 +1968,7 @@
       "weighted_incident_count": 0.0,
       "rack_capacity": 150,
       "rack_count": 1,
-      "estimated_incidents_per_40_capacity": 0.662,
+      "estimated_incidents_per_40_capacity": 0.815,
       "confidence": "medium",
       "has_reports": false
     }
